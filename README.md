@@ -1,2 +1,7 @@
-# 100Lesson
-Animaths iSNS intervention mini lesson introducing kids to numbers all the way up to 100
+# scsnl-100lesson
+
+A new Flutter project.
+
+## Getting Started
+
+FlutterFlow projects are built to run on the Flutter _stable_ release.
