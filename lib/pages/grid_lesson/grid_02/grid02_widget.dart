@@ -70,7 +70,7 @@ class _Grid02WidgetState extends State<Grid02Widget> {
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(0.0),
                     child: Image.asset(
-                      'assets/images/iPad_Pro_12.9in__73.png',
+                      'assets/images/100Lesson00.png',
                       width: 300.0,
                       height: 200.0,
                       fit: BoxFit.cover,
@@ -78,6 +78,17 @@ class _Grid02WidgetState extends State<Grid02Widget> {
                   ),
                 ),
               ),
+              Align(
+                  alignment: AlignmentDirectional(-1.0, -1.0),
+                  child: Padding(
+                      padding:
+                          EdgeInsetsDirectional.fromSTEB(22.0, 22.0, 0.0, 0.0),
+                      child: Container(
+                          width: 570,
+                          height: 570,
+                          decoration: BoxDecoration(),
+                          child: Image.asset('assets/images/100Grid17.png',
+                              fit: BoxFit.contain)))),
               Align(
                 alignment: AlignmentDirectional(1.3, 1.23),
                 child: Container(
@@ -119,7 +130,7 @@ class _Grid02WidgetState extends State<Grid02Widget> {
                         alignment: AlignmentDirectional(0.0, 0.0),
                         child: Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
-                              30.0, 30.0, 30.0, 30.0),
+                              30.0, 30.0, 30.0, 20.0),
                           child: Text(
                             'If we click on a number, like 17, we can see 17 dots and 17 purple boxes.',
                             style: FlutterFlowTheme.of(context)

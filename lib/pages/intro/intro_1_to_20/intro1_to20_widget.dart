@@ -28,6 +28,9 @@ class _Intro1To20WidgetState extends State<Intro1To20Widget> {
 
     // On page load action.
     SchedulerBinding.instance.addPostFrameCallback((_) async {
+      setState(() {
+        FFAppState().selectedNum = 0;
+      });
       while (FFAppState().selectedNum <= 19) {
         setState(() {
           FFAppState().selectedNum = FFAppState().selectedNum + 1;

@@ -119,7 +119,7 @@ class _Intro03WidgetState extends State<Intro03Widget> {
                         alignment: AlignmentDirectional(0.0, 0.0),
                         child: Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
-                              30.0, 30.0, 30.0, 30.0),
+                              30.0, 30.0, 30.0, 20.0),
                           child: Text(
                             'Before we do this, let\'s count from 1 to 20!',
                             style: FlutterFlowTheme.of(context)

@@ -36,7 +36,7 @@ class FFAppState extends ChangeNotifier {
     _numToMoveOn = _value;
   }
 
-  String _curAnimal = 'Asset 9';
+  String _curAnimal = 'Asset 8';
   String get curAnimal => _curAnimal;
   set curAnimal(String _value) {
     _curAnimal = _value;

@@ -99,7 +99,7 @@ class _Intro01WidgetState extends State<Intro01Widget> {
                         alignment: AlignmentDirectional(0.0, 0.0),
                         child: Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
-                              30.0, 30.0, 30.0, 30.0),
+                              30.0, 30.0, 30.0, 20.0),
                           child: Text(
                             'Before now, you\'ve been solving problems with numbers between 1 and 20!',
                             style: FlutterFlowTheme.of(context)

@@ -980,7 +980,7 @@ class _GridInteractiveWidgetState extends State<GridInteractiveWidget> {
                         alignment: AlignmentDirectional(0.0, 0.0),
                         child: Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
-                              30.0, 30.0, 30.0, 30.0),
+                              30.0, 30.0, 30.0, 20.0),
                           child: Text(
                             'Now it\'s your turn! Click on 10 different boxes to see how many dots they have.',
                             style: FlutterFlowTheme.of(context)

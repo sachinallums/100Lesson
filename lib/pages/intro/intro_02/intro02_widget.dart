@@ -99,7 +99,7 @@ class _Intro02WidgetState extends State<Intro02Widget> {
                         alignment: AlignmentDirectional(0.0, 0.0),
                         child: Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
-                              30.0, 30.0, 30.0, 30.0),
+                              30.0, 30.0, 30.0, 20.0),
                           child: Text(
                             'Now you\'ll get practice with numbers from 1 all the way to 100!',
                             style: FlutterFlowTheme.of(context)
