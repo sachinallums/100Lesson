@@ -8,4 +8,4 @@ Initially created through FlutterFlow, this project was made as a mini lesson to
 
 ## Video Walkthrough
 
-Click on [this link](https://youtu.be/B9pHthVbFbQ) to see a small demo of this game being played.
+Click on [this link](https://youtu.be/B9pHthVbFbQ) to see a small demo of this lesson.
